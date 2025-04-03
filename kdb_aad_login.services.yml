@@ -1,0 +1,5 @@
+services:
+  kdb_aad_login.route_subscriber:
+    class: Drupal\kdb_aad_login\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

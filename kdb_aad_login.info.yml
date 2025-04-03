@@ -1,0 +1,8 @@
+name: "KDB Azure Active Directory Login"
+description: "Handles custom login in regards to Azure Active Directory"
+package: KDB
+type: module
+core_version_requirement: ^10
+dependencies:
+  - openid_connect:openid_connect
+  - openid_connect_windows_aad:openid_connect_windows_aad

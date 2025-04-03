@@ -1,0 +1,29 @@
+uuid: 1bd89148-b072-401c-81dd-00406a68a0a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - openid_connect_windows_aad
+id: windows_aad
+label: 'Windows AAD'
+plugin: windows_aad
+settings:
+  client_id: abc
+  client_secret: azure_ad_client_secret
+  iss_allowed_domains: ''
+  authorization_endpoint_wa: ''
+  token_endpoint_wa: ''
+  end_session_endpoint: ''
+  userinfo_endpoint_wa: ''
+  map_ad_groups_to_roles: true
+  group_mapping:
+    method: 1
+    mappings: "editor|e5dc01a5-39c7-430d-92c0-ca427923bf89\r\nmediator|e4ae3766-3fdc-41d1-b9b6-a0702dd3b848\r\nlocal_administrator|904300eb-e39f-4087-a48f-e99e03f28905\r\nadministrator|66f74516-4d1a-4fff-9447-c5f42af1705ea"
+    strict: true
+  userinfo_graph_api_wa: 2
+  userinfo_graph_api_use_other_mails: false
+  userinfo_update_email: true
+  hide_email_address_warning: false
+  prompt: '<noprompt>'
+  subject_key: sub
+  front_channel_logout_url: ''
