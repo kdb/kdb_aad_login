@@ -1,0 +1,9 @@
+{
+    "name": "drupal/kdb_aad_login",
+    "description": "Module used for integrating with Azure Active Directory OpenID Connect client",
+    "type": "drupal-module",
+    "require": {
+        "drupal/openid_connect": "^3.0",
+        "drupal/openid_connect_windows_aad": "^2.0"
+    }
+}
