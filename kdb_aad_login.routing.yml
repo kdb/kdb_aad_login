@@ -1,9 +1,0 @@
-kbd_login.login:
-  path: '/login-with-ad'
-  defaults:
-    _controller: '\Drupal\kdb_aad_login\Controller\KdbLoginController::login'
-    _title: 'Login via Azure AD'
-  requirements:
-    _permission: 'access content'
-  options:
-    no_cache: TRUE
